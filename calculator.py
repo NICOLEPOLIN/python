@@ -12,6 +12,8 @@ def divide(x, y):
     if y == 0:
         return "Cannot divide by zero!"
     return x / y
+    
+ 
   
 #define the interface
 def calculator():
@@ -21,11 +23,12 @@ def calculator():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
+ 
 
     while True:
         choice = input("Enter choice (1/2/3/4): ")
 
-        if choice in ('1', '2', '3', '4'):
+        if choice in ('1', '2', '3', '4' ):
             num1 = float(input("Enter the first number: "))
             num2 = float(input("Enter the second number: "))
 

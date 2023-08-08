@@ -15,7 +15,7 @@ def divide(x, y):
   
 #define the interface
 def calculator():
-    print("Welcome to the Calculator!")
+    print("Welcome to the Math helper!")
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
